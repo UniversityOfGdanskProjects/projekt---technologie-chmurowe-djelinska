@@ -73,11 +73,13 @@ Zalogowani użytkownicy mają dostęp do dodawania produktów do koszyka, skład
 
 ## Import danych produktów
 
-- Zaimportuj dane produktów do bazy danych MongoDB
+- Zaimportuj dane produktów z katalogu /backend/data do bazy danych MongoDB
 
 ```
 mongoimport --db ecommerce --collection products --type json --file data/products.json --jsonArray
 ```
+
+- Ustaw poprawne zmienne środowiskowe w plikach konfiguracyjnych .env
 
 ## Użycie
 
