@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Moisturizing Cream",
+		"description": "Hydrates and soothes dry skin, providing long-lasting moisture.",
+		"price": 29.99,
+		"category": "Skincare",
+		"imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=2563&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 100
+	},
+	{
+		"name": "Anti-Aging Serum",
+		"description": "Reduces fine lines and wrinkles, promoting a youthful appearance.",
+		"price": 49.99,
+		"category": "Skincare",
+		"imageUrl": "https://images.unsplash.com/photo-1627811015433-368c148f6c3c?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 50
+	},
+	{
+		"name": "Volumizing Shampoo",
+		"description": "Adds volume and body to limp hair, leaving it soft and manageable.",
+		"price": 14.99,
+		"category": "Haircare",
+		"imageUrl": "https://images.unsplash.com/photo-1615041359204-45a4dff5ec92?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 75
+	},
+	{
+		"name": "Conditioning Hair Mask",
+		"description": "Nourishes and strengthens hair, improving overall health and shine.",
+		"price": 19.99,
+		"category": "Haircare",
+		"imageUrl": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=2553&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 60
+	},
+	{
+		"name": "Brightening Face Mask",
+		"description": "Evens skin tone and reduces dark spots, revealing a radiant complexion.",
+		"price": 9.99,
+		"category": "Skincare",
+		"imageUrl": "https://images.unsplash.com/photo-1602312771175-0a4f1f0f6214?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 120
+	},
+	{
+		"name": "Eyeshadow Palette",
+		"description": "Features a range of shades for creating versatile eye makeup looks.",
+		"price": 39.99,
+		"category": "Makeup",
+		"imageUrl": "https://images.unsplash.com/photo-1590156546946-ce55a12a6a5d?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 30
+	},
+	{
+		"name": "Hydrating Lip Balm",
+		"description": "Moisturizes and protects lips from dryness, with a hint of natural color.",
+		"price": 5.99,
+		"category": "Skincare",
+		"imageUrl": "https://images.unsplash.com/photo-1620917669809-1af0497965de?q=80&w=2549&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 200
+	},
+	{
+		"name": "Gentle Makeup Remover",
+		"description": "Effortlessly removes makeup without drying out the skin, leaving it clean and refreshed.",
+		"price": 12.99,
+		"category": "Makeup",
+		"imageUrl": "https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 80
+	},
+	{
+		"name": "Nourishing Hand Cream",
+		"description": "Provides intensive moisture for dry hands, leaving them soft and supple.",
+		"price": 8.99,
+		"category": "Skincare",
+		"imageUrl": "https://images.unsplash.com/photo-1619451334792-150fd785ee74?q=80&w=2602&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 150
+	},
+	{
+		"name": "Refreshing Body Wash",
+		"description": "Cleanses and revitalizes the skin, with a refreshing fragrance.",
+		"price": 11.99,
+		"category": "Bodycare",
+		"imageUrl": "https://images.unsplash.com/photo-1597931752949-98c74b5b159f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"quantityInStock": 100
+	}
+]
