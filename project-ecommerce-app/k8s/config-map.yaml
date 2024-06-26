@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-map
+data:
+  mongo-url: 'mongodb://mongo-service:27017/ecommerce'
+  frontend-url: 'http://frontend-service:3000'
+  keycloak-server-url: 'http://keycloak-service:8080'
+  keycloak-realm: 'ecommerce-app'
+  keycloak-client-id: 'ecommerce-app-client'
+  vite-keykloak-url: 'http://keycloak-service:8080'
+  vite-keykloak-realm: 'ecommerce-app'
+  vite-keykloak-client-id: 'ecommerce-app-client'
+  vite-keykloak-redirect-uri: 'http://frontend-service:3000'
+  vite-api-base-url: 'http://backend-service:7000'
