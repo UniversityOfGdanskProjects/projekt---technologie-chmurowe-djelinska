@@ -1,0 +1,50 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    expose:
+      - 7000
+    ports:
+      - '7000:7000'
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/ecommerce
+      - FRONTEND_URL=http://localhost:3000
+      - KEYCLOAK_SERVER_URL=http://localhost:8080
+      - KEYCLOAK_REALM=ecommerce-app
+      - KEYCLOAK_CLIENT_ID=ecommerce-app-client
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    expose:
+      - 3000
+    ports:
+      - '3000:3000'
+    environment:
+      - VITE_KEYCLOAK_URL=http://localhost:8080
+      - VITE_KEYCLOAK_REALM=ecommerce-app
+      - VITE_KEYCLOAK_CLIENT_ID=ecommerce-app-client
+      - VITE_KEYCLOAK_REDIRECT_URI=http://localhost:3000
+      - VITE_API_BASE_URL=http://localhost:7000
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+
+  keycloak:
+    image: keycloak-app:custom
+    command: ['start-dev']
+    ports:
+      - '8080:8080'
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+
+networks:
+  mynetwork:

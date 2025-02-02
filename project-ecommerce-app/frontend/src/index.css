@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100..500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: 'Raleway', sans-serif;
+	}
+
+	body {
+		@apply bg-primary-white;
+	}
+
+	svg {
+		@apply text-2xl;
+	}
+}
+
+@layer components {
+	.logo {
+		font-family: 'Playfair Display', serif;
+	}
+
+	.button {
+		@apply uppercase font-medium text-sm tracking-wider rounded-sm;
+	}
+
+	.serif-text {
+		font-family: 'Playfair Display', serif;
+	}
+
+	label {
+		@apply text-sm;
+	}
+
+	textarea {
+		resize: none;
+	}
+
+	select {
+		@apply uppercase text-sm bg-transparent border outline-none focus:border-transparent focus:ring-1 focus:ring-accent-green;
+	}
+
+	.form-group {
+		@apply flex flex-col gap-1;
+	}
+
+	.form-error-message {
+		@apply text-accent-red text-sm mt-1;
+	}
+}
